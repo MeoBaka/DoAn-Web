@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.Header{
+	width: auto;
+	height: 120px;
+	display: flex;
+}
+.format{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.displayHeader{
+	float: left;
+	display: flex;
+}
+.ClassLI{
+	list-style: none;
+	line-height: 120px;
+	padding-left: 50px;
+	font-size: 20px;
+}
+.imgage{
+	width: 220px;
+	margin: auto;
+	padding-right: 600px;
+}
+.displayRight{
+	float: right;
+	line-height: 120px;
+	padding-right: 50px;
+	font-size: 30px;
+}
+.NoiDung{
+	position: absolute;
+	top: 200px;
+
+	color: white;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 800px;
+}
+.nd{
+	font-size: 30px;
+}
+.Mid_nd{
+	font-size: 25px;
+}
+.Mid{
+	height: 600px;
+}
+.boxbutton{
+	margin-top: 30px;
+	width: 250px;
+	height: 50px;
+	background-color: coral;
+	border-radius: 100px;
+	border: 2px solid coral;
+	transition: 0.4s ease;
+}
+.boxbutton:hover{
+	transition: 0.4s ease;
+	background-color: #FFFFFF00;
+	cursor: pointer;
+}
+.boxtext{
+	position: relative;
+	top: 15px;
+	left: 70px;
+}
+.Products{
+	padding: 50px;
+}
+.Prodisplay{
+	height: 275px;
+	display: flex;
+
+}
+.Box-prod{
+	width: 275px;
+	height: 275px;
+	border: 2px solid black;
+	border-radius: 20px 20px 20px 20px;
+	margin: auto;
+	margin-top: 40px;
+}
+.box-nd{
+	position: relative;
+	top: 120px;
+	left: 20px;
+}
+.Products-Title{
+	font-size: 50px;
+	margin-left: 90px;
+}
+.Content{
+}
+.KhungContent{
+	height: 800px;
+	border: 2px solid black;
+	margin: 100px;
+	border-radius: 20px 20px 20px 20px;
+	display: flex;
+}
+.content-anh{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px 0 0 20px;
+}
+.content-anh2{
+	width: 100%;
+	height: 100%;
+	border-radius: 0 20px 20px 0;
+}
+.content-nd{
+	position: relative;
+	top: 100px;
+	margin: 50px;
+}
+.content-title{
+	font-size: 50px;
+	text-align: center;
+}
+.content-desc{
+	font-size: 25px;
+	text-align: center;
+}
+.khung-button-nd{
+	width: 150px;
+	height: 50px;
+	border: 2px solid orangered;
+	background-color: orangered;
+	border-radius: 50px 50px 50px 50px;
+	position: relative;
+	top: 100px;
+	left: 40%;
+	transition: 0.4s ease;
+}
+.btn-nd {
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	left: 12px;
+	color: white;
+	transition: 0.4s ease;
+}
+.khung-button-nd:hover .btn-nd{
+	color: #000000;
+	transition: 0.4s ease;
+}
+.khung-button-nd:hover{
+	background-color: #FFFFFF00;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
