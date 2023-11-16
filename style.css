@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Arial;
+	font-family: Arial, serif;
 }
 .Header{
 	width: auto;
@@ -107,7 +107,7 @@
 	display: flex;
 }
 .content-anh{
-	width: 100%;
+	width: 52%;
 	height: 100%;
 	border-radius: 20px 0 0 20px;
 }
@@ -157,4 +157,69 @@
 	background-color: #FFFFFF00;
 	transition: 0.4s ease;
 	cursor: pointer;
+}
+.BackGround-BG{
+	width: 375px;
+	height: 285px;
+	background-color: #f0f0f0;
+	margin: 60px;
+	border-radius: 20px 20px 20px 20px;
+}
+.Store-Img{
+	width: 75px;
+	height: 75px;
+	margin-top: 20px;
+	margin-left: 35%;
+}
+.BGStore{
+	text-align: center;
+	line-height: 40px;
+}
+.Khung-Store{
+	display: flex;
+}
+.Img-Top{
+	width: 250px;
+	height: 250px;
+	padding: 10px 10px 10px 10px;
+}
+.top-nd{
+	padding: 10px 10px 10px 10px;
+}
+.topbg{
+	width: 270px;
+	height: 270px;
+	background-color: #f0f0f0;
+	border: 2px solid black;
+	border-radius: 20px 20px 20px 20px;
+ }
+.Top-Display{
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.BoxEmail{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.displayFotter{
+	display: flex;
+	color: white;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Fot1{
+	background-color: black;
+}
+.fot2{
+	text-align: center;
+	background-color: black;
 }
