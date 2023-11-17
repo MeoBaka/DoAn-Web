@@ -1,7 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Arial, serif;
+}
+.Khung{
+	font-family: "Inter-Regular", Helvetica;
 }
 .Header{
 	width: auto;
@@ -101,7 +103,7 @@
 }
 .KhungContent{
 	height: 800px;
-	border: 2px solid black;
+	background-color: #f0f0f0;
 	margin: 100px;
 	border-radius: 20px 20px 20px 20px;
 	display: flex;
@@ -142,7 +144,6 @@
 }
 .btn-nd {
 	font-size: 20px;
-	font-weight: bold;
 	position: relative;
 	top: 15px;
 	left: 12px;
