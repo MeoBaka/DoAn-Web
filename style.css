@@ -288,9 +288,15 @@
 	top: 57px;
 	font-size: 1.3em;
 	color: #000000;
+	right: 800px;
+}
+.cssicon2{
+	position: absolute;
+	top: 57px;
+	font-size: 1.3em;
+	color: #000000;
 	right: 750px;
 }
-
 .shophtml{
 	padding: 50px;
 	font-size: 60px;
