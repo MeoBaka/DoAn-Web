@@ -127,6 +127,7 @@
 .Products-Title{
 	font-size: 50px;
 	margin-left: 90px;
+	margin-top: 50px;
 }
 
 .Content{
@@ -224,7 +225,7 @@
 	background-color: #f0f0f0;
 	border: 2px solid #b2b2b2;
 	border-radius: 20px 20px 20px 20px;
- }
+}
 .Top-Display{
 	margin-left: 100px;
 	margin-right: 100px;
@@ -287,7 +288,7 @@
 	top: 57px;
 	font-size: 1.3em;
 	color: #000000;
-	right: 800px;
+	right: 750px;
 }
 
 .shophtml{
@@ -301,4 +302,123 @@
 }
 .link{
 	text-decoration: none;
+}
+
+
+.Title{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.desc{
+	margin-left: 100px;
+}
+.ListProduct{
+	height: 300px;
+}
+.LPTitle{
+	width: auto;
+	text-align: center;
+	margin-top: 200px;
+}
+.hangloc{
+	height: 300px;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+.HangImg{
+	width: 300px;
+	height: 300px;
+}
+.TitleHang{
+	width: 300px;
+	position: relative;
+	left: 325px;
+	top: -300px;
+}
+.DanhGia{
+	width: 300px;
+	position: relative;
+	left: 325px;
+	top: -295px;
+}
+.ThuongHieu{
+	width: 300px;
+	position: relative;
+	left: 325px;
+	top: -290px;
+}
+.GiaTien{
+	width: 300px;
+	position: relative;
+	left: 325px;
+	top: -280px;
+	font-size: 30px;
+	color: #0a804a;
+}
+.delGia{
+	width: auto;
+	font-size: 20px;
+	color: black;
+}
+.SoLuong{
+	width: 300px;
+	position: relative;
+	left: 325px;
+	top: -275px;
+}
+.button{
+	width: auto;
+	width: 30px;
+	height: 30px;
+}
+.TxtSoLuong{
+	height: 27px;
+	width: 50px;
+	text-align: center;
+	margin-top: 5px;
+}
+.btnMuaNgay{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 20px;
+	width: 400px;
+	border-radius: 5px 5px 5px 5px;
+	height: 50px;
+	background-color: #0a804a;
+	color: white;
+	text-align: center;
+	padding: 15px 5px 5px 5px;
+}
+.btnMuaNgay:hover{
+	background-color: #3b996e;
+	cursor: pointer;
+}
+.ContactTitle{
+}
+.contact{
+	height: 200px;
+}
+.form-container {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.form-container button {
+	background-color: red;
+	color: white;
+	cursor: pointer;
 }
