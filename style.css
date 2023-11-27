@@ -327,7 +327,7 @@
 	margin-top: 200px;
 }
 .hangloc{
-	height: 300px;
+	height: 800px;
 	margin-left: 500px;
 	margin-top: 100px;
 }
@@ -427,4 +427,52 @@
 	background-color: red;
 	color: white;
 	cursor: pointer;
+}
+
+
+.accordion {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.accordion-item {
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	position: relative; /* Thêm thuộc tính position để làm việc với mũi tên */
+}
+
+.accordion-item-header {
+	padding: 10px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	position: relative; /* Thêm thuộc tính position để làm việc với mũi tên */
+	transition: background-color 0.3s; /* Thêm hiệu ứng chuyển đổi màu */
+}
+
+.accordion-item-header.active {
+	background-color: #59ffca; /* Đổi màu khi ở trạng thái mở */
+}
+
+/* Mũi tên đi xuống */
+.accordion-item-header::after {
+	content: '\25BC'; /* Unicode cho mũi tên xuống */
+	font-size: 14px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: transform 0.3s; /* Thêm hiệu ứng chuyển đổi mũi tên */
+}
+
+/* Đảo chiều mũi tên khi accordion-item-body được hiển thị */
+.accordion-item.active .accordion-item-header::after {
+	transform: translateY(-50%) rotate(180deg); /* Đảo chiều mũi tên khi ở trạng thái mở */
+}
+
+.accordion-item-body {
+	display: none;
+	padding: 10px;
 }

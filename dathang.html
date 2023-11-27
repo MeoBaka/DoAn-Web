@@ -8,6 +8,7 @@
     <script src="script.js"></script>
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
     <body>
         <div class="Khung">
@@ -57,11 +58,48 @@
                             }
                         </script>
                         <div class="btnMuaNgay">
-                            <p class="btnmuadesc"><b>Mua Ngay<br>Giao Tận Nơi Hoặc Đặt Tại Cửa Hàng</b></pclass>
+                            <p class="btnmuadesc"></p><b>Mua Ngay<br>Giao Tận Nơi Hoặc Đặt Tại Cửa Hàng</b></pclass>
                         </div>
-                    </div>
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <div class="accordion-item-header">Thông Số Điện Thoại</div>
+                                <div class="accordion-item-body" style="display: none;">
+                                    <p>Màn hình:
 
+                                        OLED6.7"Super Retina XDR</p>
+                                    <p>Hệ điều hành:
+
+                                        iOS 17</p>
+                                    <p>Camera sau:
+
+                                        Chính 48 MP & Phụ 12 MP, 12 MP</p>
+                                    <p>Camera trước:
+
+                                        12 MP</p>
+                                    <p>Chip:
+
+                                        Apple A17 Pro 6 nhân</p>
+                                    <p>RAM:
+
+                                        8 GB</p>
+                                    <p>Dung lượng lưu trữ:
+
+                                        256 GB</p>
+                                    <p>SIM:
+
+                                        1 Nano SIM & 1 eSIMHỗ trợ 5G</p>
+                                    <p>Pin, Sạc:
+
+                                        4422 mAh20 W</p>
+                                    <p>Hãng
+
+                                        iPhone (Apple). </p>
+                                </div>
+                            </div>
+
+                        </div>
                 </div>
+
             </div>
 
             <div class="Products">
@@ -107,6 +145,20 @@
                 </div>
             </div>
         </div>
-        
+        <script>
+            $(document).ready(function () {
+                // Thêm sự kiện click vào phần tiêu đề của accordion
+                $('.accordion-item-header').click(function () {
+                    console.log("Đã click vào tiêu đề");
+                    // Chuyển đổi sự hiển thị của phần thân của accordion
+                    $(this).next('.accordion-item-body').slideToggle();
+                    // Đảo ngược mũi tên khi accordion-item-body được hiển thị hoặc ẩn đi
+                    $(this).toggleClass('active');
+                });
+            });
+
+        </script>
+
     </body>
+
 </html>
