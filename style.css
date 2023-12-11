@@ -2,29 +2,275 @@
 	margin: 0;
 	padding: 0;
 }
+
+.nutcon {
+    width: 15px;
+    height: 15px;
+    background-color: #deb88761;
+    border-radius: 50%;
+}
+
+.doimau {
+    background-color: white;
+}
+
+.cacnutme {
+    display: flex;
+    width: 15%;
+    margin: auto;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.cacnut {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 20px;
+    bottom: -92px;
+}
+
+.phaiicon {
+	width: 50px;
+	height: 50px;
+	background-color: #8a2be280;
+	border: 1px solid wheat;
+	box-sizing: border-box;
+	padding: 17px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 70px;
+}
+
+.traiicon {
+    width: 50px;
+    height: 50px;
+    background-color: #8a2be280;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+    padding: 17px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.MidTong {
+    width: auto;
+    height: 600px;
+}
+
+.icon {
+    position: absolute;
+    top: 433px;
+    color: white;
+    z-index: 1;
+    width: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 585px;
+    position: relative;
+}
+
+._1slide {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s ease;
+}
+
+.kichhoat {
+    visibility: visible;
+    opacity: 1;
+}
+.fb {
+    float: left;
+    width: 27px;
+    height: auto;
+    color: blue;
+}
+
+.tdfb {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.lk {
+    color: blue;
+    font-size: 16px;
+}
+
+.ktt {
+    width: 712px;
+    height: auto;
+    margin-top: 28px;
+}
+
+.ndktt {
+    font-size:  20px;
+    font-family: ui-monospace;
+}
+
+.td {
+    font-size: 20px;
+    line-height: 30px;
+    width: auto;
+    height: auto;
+    padding-left: 31px;
+    font-weight: bold;
+}
+
+.iconktt {
+    float: left;
+}
+
+.Trai {
+    width: 45%;
+    height: 1000px;
+    float: left;
+}
+
+.Phai {
+    width: 45%;
+    height: 1000px;
+    float: left;
+    margin-right: 165px;
+}
+
+.MidCenter {
+    width: 1650px;
+    height: 525px;
+    margin: auto;
+}
+
+.Box-prod-nd {
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+}
+
+.Box-prod-title {
+    position: absolute;
+    z-index: 1;
+}
+
+.anhshop {
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    top: -120px;
+    left: -20px;
+    border-radius: 24px;
+    z-index: 0;
+}
+
+.anhshop:hover {
+    transform: scale(1.2);
+    transition: 0.7s ease;
+}
+
+.new {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-left: 3px;
+    position: absolute;
+    top: 32px;
+    right: 51px;
+    color: white;
+}
+
+.Search {border-radius: 10px;border: 1px solid;height: 20px;width: 220px;padding-left: 10px;background-color: #ffffff00;}
+
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px #8b451300;
+    background-color: #f0f8ff00;
+    font-size: 26px;
+}
+
+.formtimkiem {
+    float: left;
+}
+
+.Footer {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.KhungmauProducts {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/bando.jpg);
+}
+
 .Khung{
 	font-family: "Inter-Regular", Helvetica;
 }
 .Header{
-	width: auto;
+	width: 100%;
 	height: 120px;
 	display: flex;
+	background-color: #ffffff00;
 }
 
-.format{
-	padding-left: 10px;
-	padding-right: 10px;
+.Scroll {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    top: 0px;
+    z-index: 6;
+    background-color: #ffffff;
+    transition: 0.9s ease;
+}
+
+.format{width: 50px;height: 50px;border: 1px solid #8b45130d;border-radius: 50%;box-sizing: border-box;padding: 10px;}
+
+.format:hover {
+    background-color: #8a2be280;
+    color: blueviolet;
+    transition: 0.4s ease;
+    cursor: pointer;
 }
 .displayHeader{
-	float: left;
+	width: 35%;
 	display: flex;
+	justify-content: space-between;
+	margin-left: 12px;
 }
 .ClassLI{
 	list-style: none;
-	line-height: 120px;
-	padding-left: 50px;
+	line-height: 60px;
 	font-size: 20px;
 	transition: 0.4s ease;
+	border: 1px solid #f5deb370;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 25px;
+}
+
+.ClassLI:hover {
+    background: currentColor;
+    transition: -0.8s ease;
+    cursor: pointer;
 }
 .bar{
 	width: 0%;
@@ -46,26 +292,26 @@
 	cursor: pointer;
 }
 .imgage{
-	width: 220px;
+	width: 235px;
 	margin: auto;
-	padding-right: 600px;
 }
 .displayRight{
 	float: right;
-	line-height: 120px;
 	padding-right: 50px;
 	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 265px;
 }
 .NoiDung{
 	position: absolute;
 	top: 200px;
-
 	color: white;
 	margin: 50px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	width: 800px;
+	left: 115px;
 }
 .nd{
 	font-size: 30px;
@@ -94,15 +340,13 @@
 	position: relative;
 	top: 15px;
 	left: 70px;
+	color: white;
 }
-.Products{
-	padding: 50px;
-}
+.Products{width: auto;margin-top: 20px;height: auto;animation: hienra 3s forwards;}
 
 .Prodisplay{
-	height: 275px;
+	height: 325px;
 	display: flex;
-
 }
 .Box-prod{
 	width: 275px;
@@ -111,6 +355,7 @@
 	border-radius: 20px 20px 20px 20px;
 	margin: auto;
 	margin-top: 40px;
+	overflow: hidden;
 }
 .Box-prod:hover{
 	cursor: pointer;
@@ -130,14 +375,28 @@
 	margin-top: 50px;
 }
 
-.Content{
-}
 .KhungContent{
+	width: auto;
 	height: 600px;
 	background-color: #f0f0f0;
 	margin: 100px;
 	border-radius: 20px 20px 20px 20px;
 	display: flex;
+	opacity: 0;
+}
+
+.phai {
+    width: auto;
+    height: 600px;
+    animation: benphai 3s forwards;
+    animation-delay: 2.5s;
+}
+
+.trai {
+    width: auto;
+    height: 600px;
+    animation: bentrai 3s forwards;
+    animation-delay: 2.5s;
 }
 .content-anh{
 	width: 2500px;
@@ -197,6 +456,16 @@
 	background-color: #f0f0f0;
 	margin: 60px;
 	border-radius: 20px 20px 20px 20px;
+	animation: chaylen 3s forwards;
+	animation-delay: 5s;
+	opacity: 0;
+}
+
+.BackGround-BG:hover {
+    background-color: #00000026;
+    color: #f0f0f0;
+    transition: 0.4s ease;
+    cursor: pointer;
 }
 .Store-Img{
 	width: 75px;
@@ -215,9 +484,12 @@
 	width: 250px;
 	height: 250px;
 	padding: 10px 10px 10px 10px;
+	border-radius: 25px;
 }
 .top-nd{
 	padding: 10px 10px 10px 10px;
+	overflow: visible;
+	position: absolute;
 }
 .topbg{
 	width: 270px;
@@ -225,6 +497,13 @@
 	background-color: #f0f0f0;
 	border: 2px solid #b2b2b2;
 	border-radius: 20px 20px 20px 20px;
+	overflow: hidden;
+}
+
+.topbg:hover .Img-Top {
+    transform: scale(1.3);
+    transition: 0.9s ease;
+    cursor: pointer;
 }
 .Top-Display{
 	margin-left: 100px;
@@ -249,6 +528,7 @@
 	flex-wrap: nowrap;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	width: 100%;
 }
 .Fot1{
 	background-color: black;
@@ -300,8 +580,8 @@
 .shophtml{
 	padding: 50px;
 	font-size: 60px;
-	width: 400px;
-	height: 100px;
+	width: 327px;
+	height: 70px;
 	background-color: white;
 	color: black;
 	border-radius: 20px;
@@ -309,6 +589,8 @@
 .link{
 	text-decoration: none;
 }
+
+.chuyenmau {background-color: #7facff;}
 
 
 .Title{
@@ -441,38 +723,54 @@
 .accordion-item {
 	border: 1px solid #ccc;
 	margin-bottom: 5px;
-	position: relative; /* Thêm thuộc tính position để làm việc với mũi tên */
+	position: relative; /* ThÃªm thuá»™c tÃ­nh position Ä‘á»ƒ lÃ m viá»‡c vá»›i mÅ©i tÃªn */
 }
 
 .accordion-item-header {
 	padding: 10px;
 	background-color: #f1f1f1;
 	cursor: pointer;
-	position: relative; /* Thêm thuộc tính position để làm việc với mũi tên */
-	transition: background-color 0.3s; /* Thêm hiệu ứng chuyển đổi màu */
+	position: relative; /* ThÃªm thuá»™c tÃ­nh position Ä‘á»ƒ lÃ m viá»‡c vá»›i mÅ©i tÃªn */
+	transition: background-color 0.3s; /* ThÃªm hiá»‡u á»©ng chuyá»ƒn Ä‘á»•i mÃ u */
 }
 
 .accordion-item-header.active {
-	background-color: #59ffca; /* Đổi màu khi ở trạng thái mở */
+	background-color: #59ffca; /* Äá»•i mÃ u khi á»Ÿ tráº¡ng thÃ¡i má»Ÿ */
 }
 
-/* Mũi tên đi xuống */
+/* MÅ©i tÃªn Ä‘i xuá»‘ng */
 .accordion-item-header::after {
-	content: '\25BC'; /* Unicode cho mũi tên xuống */
+	content: '\25BC'; /* Unicode cho mÅ©i tÃªn xuá»‘ng */
 	font-size: 14px;
 	position: absolute;
 	right: 10px;
 	top: 50%;
 	transform: translateY(-50%);
-	transition: transform 0.3s; /* Thêm hiệu ứng chuyển đổi mũi tên */
+	transition: transform 0.3s; /* ThÃªm hiá»‡u á»©ng chuyá»ƒn Ä‘á»•i mÅ©i tÃªn */
 }
 
-/* Đảo chiều mũi tên khi accordion-item-body được hiển thị */
+/* Äáº£o chiá»u mÅ©i tÃªn khi accordion-item-body Ä‘Æ°á»£c hiá»ƒn thá»‹ */
 .accordion-item.active .accordion-item-header::after {
-	transform: translateY(-50%) rotate(180deg); /* Đảo chiều mũi tên khi ở trạng thái mở */
+	transform: translateY(-50%) rotate(180deg); /* Äáº£o chiá»u mÅ©i tÃªn khi á»Ÿ tráº¡ng thÃ¡i má»Ÿ */
 }
 
 .accordion-item-body {
 	display: none;
 	padding: 10px;
+}
+@-webkit-keyframes bentrai{
+    0%{ transform: translateX(-50%); opacity: 0 ;}
+    100%{ transform: translateX(1%); opacity:1;}
+}
+@-webkit-keyframes benphai{
+    0%{ transform: translateX(100%); opacity: 0 ;}
+    100%{ transform: translateX(1%); opacity:1;}
+}
+@-webkit-keyframes chaylen{
+    0%{ transform: translateY(100%); opacity: 0 ;}
+    100%{ transform: translateY(0%); opacity:1;}
+}
+@-webkit-keyframes hienra{
+    0%{ transform: scale(0.5); opacity: 0 ;}
+    100%{ transform: scale(1); opacity:1;}
 }
