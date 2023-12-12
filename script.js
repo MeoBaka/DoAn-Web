@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded",function(){
     console.log(vitrimenu);
     window.addEventListener('scroll',function(){
         console.log(window.pageYOffset);
-        if(window.pageYOffset >510){
+        if(window.pageYOffset >300){
             menuden.classList.add("Scroll");
         }
         else{
